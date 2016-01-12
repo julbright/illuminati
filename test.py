@@ -135,7 +135,7 @@ def main():
     # print light1_status
 
     updateLight(bridge = bridge, light_to_update = lights['Living room'],
-        updates = {'on'    : False}
+        updates = {'on'    : True}
         )
 
     
